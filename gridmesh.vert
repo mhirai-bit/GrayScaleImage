@@ -8,7 +8,6 @@ layout(std140, binding = 0) uniform buf {
     float width;
 };
 void main() {
-    // GridMeshを使用することでqt_Vertexが増える
     vec4 pos = qt_Vertex;
     float d = 0.5 * smoothstep(0.0, 1.0, qt_MultiTexCoord0.y);
     pos.x = width * mix(d, 1.0 - d, qt_MultiTexCoord0.x);

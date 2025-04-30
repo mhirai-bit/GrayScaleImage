@@ -9,6 +9,46 @@ Window {
 
     SwipeView {
         anchors.fill: parent
+
+        DirectedParticles {
+
+        }
+
+        TrailParticlePractice {
+            width: 500
+            height: width
+        }
+
+        SimpleParticleSimulation {
+
+        }
+
+        CurtainDemo {
+
+        }
+
+        GenieEffect {
+
+        }
+
+        WaveEffect {
+
+        }
+
+        JapaneseFlag {
+
+        }
+
+        FrenchFlag {
+            width: 640
+            height: 480
+        }
+
+        FirstShader {
+            width: 640
+            height: 480
+        }
+
         Item {
             width: 640
             height: 480
@@ -39,5 +79,6 @@ Window {
         }
         BatteryScreen {}
         GridMeshTest {}
+
     }
 }

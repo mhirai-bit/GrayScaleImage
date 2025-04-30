@@ -20,8 +20,25 @@ qt_add_qml_module(appGrayScaleImage
         GradientText.qml
         BatteryScreen.qml
         GridMeshTest.qml
+        FirstShader.qml
+        FrenchFlag.qml
+        JapaneseFlag.qml
+        WaveEffect.qml
+        GenieEffect.qml
+        CurtainEffect.qml
+        CurtainDemo.qml
+        SimpleParticleSimulation.qml
+        TrailParticlePractice.qml
+        ParticleParameters.qml
+        DirectedParticles.qml
     RESOURCES
         Qtlogo.png
+        dogeFlag.jpg
+        doge.jpg
+        fabric.jpg
+        redCurtain.png
+        particle.png
+        star.png
 )
 
 qt_add_shaders(appGrayScaleImage "shaders"
@@ -32,6 +49,14 @@ qt_add_shaders(appGrayScaleImage "shaders"
         mask.frag
         battery.frag
         gridmesh.vert
+        redshader.frag
+        frenchFlag.frag
+        japaneseFlag.frag
+        wave.frag
+        myWave.frag
+        genie.vert
+        curtain.vert
+        curtain.frag
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
